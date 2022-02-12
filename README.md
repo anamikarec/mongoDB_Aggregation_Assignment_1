@@ -1,4 +1,4 @@
-### Array Update Pending
+### Array Update
 
 #### Problem
 - create a collection of posts
