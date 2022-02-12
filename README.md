@@ -55,7 +55,7 @@ db.posts.updateOne({id : 1},{$pull : {tags : "nature2"}})
 
 10. 
 ```js
-     db.users.updateOne({ _id: ObjectId("6207aaafc8532bcd1eb953ff")},{$push :{scores :{$each : [100,99,96,93,91],$sort : {scores : -1},$slice : 3} }})
+     db.users.updateOne({ _id: ObjectId("6207aaafc8532bcd1eb953ff")},{$push :{scores :{$each : [100,99,96,93,91],$sort : -1,$slice : 3} }})
 ```
 
 11. 
